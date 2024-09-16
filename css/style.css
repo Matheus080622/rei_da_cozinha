@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../img/fundo1.png');
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-attachment: fixed;
+}
+
+#container {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  margin: auto;
+  position: relative;
+}
+
+#logo {
+  position: fixed; /* Fixei o logo no canto da tela */
+  top: 10px;     
+  left: 10px;      
+}
+
+#logo > img {
+  max-width: 40%;  
+  height: auto;   
+}
+
