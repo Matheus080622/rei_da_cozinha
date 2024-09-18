@@ -1,3 +1,4 @@
+/*f2e0d2*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,7 +14,7 @@ header {
 }
 
 .container {
-  max-width: 1200px;
+  height: 150px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
@@ -21,84 +22,39 @@ header {
   align-items: center;
 }
 img{
-  width: 27%;
+  max-width: 27%;
   height: auto;
   
 }
 
-nav{
-  height: auto;
-}
-
-.tab-container {
-  position: relative;
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-
-  padding: 2px;
-
-  background-color: #dadadb;
-  border-radius: 9px;
-}
-
-.indicator {
-  content: "";
+.btn {
   width: 130px;
-  height: 28px;
-  max-width: 50%;
-  background: #fdfdfd;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  z-index: 9;
-  border: 0.5px solid rgba(0, 0, 0, 0.04);
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
-  border-radius: 7px;
-  transition: all 0.2s ease-out;
-}
-
-.tab {
-  width: 130px;
-  height: 28px;
-  position: absolute;
-  z-index: 99;
-  outline: none;
-  opacity: 0;
-}
-
-.tab_label {
-  width: 130px;
-  height: 28px;
-
-  position: relative;
-  z-index: 999;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border: 0;
-
-  font-size: 0.75rem;
-  opacity: 0.6;
-
+  height: 40px;
+  font-size: .9em;
   cursor: pointer;
-}
-
-.tab--1:checked ~ .indicator {
-  left: 2px;
-}
-
-.tab--2:checked ~ .indicator {
-  left: calc(130px + 2px);
-}
-
-.tab--3:checked ~ .indicator {
-  left: calc(130px * 2 + 2px);
-}
-
+  background-color: #bdb2aa;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all .4s;
+  text-wrap: none;
+ }
+ 
+ .btn:hover {
+  border-radius: 5px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #00000032,
+   0 15px 0 -4px #0000008a,
+   0 16px 10px -3px #00000073;
+ }
+ 
+ .btn:active {
+  transition: all 0.2s;
+  transform: translate(-5px);
+  box-shadow: 0 2px 0 -2px #f2e0d2,
+   0 8px 0 -4px #e7d6c9,
+   0 12px 10px -3px #c8b9ae;
+ }
 
 /*aparti daqui é o codigo da barra de pesquisa */
 .container-input {
@@ -130,6 +86,71 @@ nav{
   width: 210px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
+  .btn{
+    width: 100px;
+    height: 35px;
+  }
+}
+@media (max-width: 860px) {
+  .btn{
+    width: 80px;
+    height: 40px;
+  } 
+  .input {
+    width: 160px;
+  } 
+  .input:focus {
+    width: 170px;
+  }
+}
+@media (max-width: 720px) {
+  .btn{
+    font-size: .8em;
+  }
+  .input {
+    width: 100px;
+  } 
+  .input:focus {
+    width: 110px;
+  }
+}
+@media (max-width: 640px) {
+  img{
+    max-width: 150px;
+    height: 80px;
+    
+  .btn{
+    width: auto;
+    height: 50px;
+  }
+  .input {
+    width: 50px;
+  } 
+  .input:focus {
+    width: 60px;
+  }
+}
+@media (min-width: 470px) and (max-width: 600px){
+  .btn{
+    display: grid;
+    width: 100px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+  }
 
+}
+@media (max-width: 469px) {
+  .btn{
+    display: grid;
+    width: 80px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+  }
+  .input {
+    width: 45px;
+  } 
+  .input:focus {
+    width: 55px;
+  }
 }
