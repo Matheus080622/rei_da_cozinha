@@ -1,4 +1,4 @@
-/*f2e0d2*/
+/*numero da nossa cor  f2e0d2*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -26,7 +26,7 @@ img{
   height: auto;
   
 }
-
+/*botao do menu*/
 .btn {
   width: 130px;
   height: 40px;
@@ -86,12 +86,29 @@ img{
   width: 210px;
 }
 
-@media (max-width: 1000px) {
+/*responsividades*/
+media (max-width: 1000px) {
   .btn{
     width: 100px;
     height: 35px;
   }
 }
+
+@media (max-width: 940px) {
+  .btn{
+    width: 70px;
+    height: 40px;
+  } 
+  .input {
+    width: 150px;
+  } 
+  .input:focus {
+    width: 160px;
+  }
+}
+
+
+
 @media (max-width: 860px) {
   .btn{
     width: 80px;
@@ -119,7 +136,7 @@ img{
   img{
     max-width: 150px;
     height: 80px;
-    
+
   .btn{
     width: auto;
     height: 50px;
@@ -153,4 +170,4 @@ img{
   .input:focus {
     width: 55px;
   }
-}
+}}

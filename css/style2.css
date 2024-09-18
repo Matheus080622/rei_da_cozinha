@@ -1,3 +1,4 @@
+/*numero da nossa cor  f2e0d2*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,92 +14,48 @@ header {
 }
 
 .container {
-  max-width: 1200px;
+  height: 150px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+/*logo */
 img{
-  width: 27%;
+  max-width: 27%;
   height: auto;
   
 }
-
-nav{
-  height: auto;
-}
-
-.tab-container {
-  position: relative;
-  max-width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-
-  padding: 2px;
-
-  background-color: #dadadb;
-  border-radius: 9px;
-}
-
-.indicator {
-  content: "";
+/*botao do menu*/
+.btn {
   width: 130px;
-  height: 28px;
-  max-width: 50%;
-  background: #fdfdfd;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  z-index: 9;
-  border: 0.5px solid rgba(0, 0, 0, 0.04);
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
-  border-radius: 7px;
-  transition: all 0.2s ease-out;
-}
-
-.tab {
-  width: 130px;
-  height: 28px;
-  position: absolute;
-  z-index: 99;
-  outline: none;
-  opacity: 0;
-}
-
-.tab_label {
-  width: 130px;
-  height: 28px;
-
-  position: relative;
-  z-index: 999;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  border: 0;
-
-  font-size: 0.75rem;
-  opacity: 0.6;
-
+  height: 40px;
+  font-size: .9em;
   cursor: pointer;
-}
-
-.tab--1:checked ~ .indicator {
-  left: 2px;
-}
-
-.tab--2:checked ~ .indicator {
-  left: calc(130px + 2px);
-}
-
-.tab--3:checked ~ .indicator {
-  left: calc(130px * 2 + 2px);
-}
-
+  background-color: #bdb2aa;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: all .4s;
+  text-wrap: none;
+ }
+ 
+ .btn:hover {
+  border-radius: 5px;
+  transform: translateY(-10px);
+  box-shadow: 0 7px 0 -2px #00000032,
+   0 15px 0 -4px #0000008a,
+   0 16px 10px -3px #00000073;
+ }
+ 
+ .btn:active {
+  transition: all 0.2s;
+  transform: translate(-5px);
+  box-shadow: 0 2px 0 -2px #f2e0d2,
+   0 8px 0 -4px #e7d6c9,
+   0 12px 10px -3px #c8b9ae;
+ }
 
 /*aparti daqui é o codigo da barra de pesquisa */
 .container-input {
@@ -130,101 +87,85 @@ nav{
   width: 210px;
 }
 
-/*Categorias */
-main{
-  width: 100%;
-
-  margin-bottom: 0;
-
-}
-.card {
-  max-width: 90%;
-  height: 470px;
-  border-radius: 4px;
-  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.414);
-  background: #ead6c7;
-  display: flex;
-  gap: 10px;
-  padding: .7em;
-  margin: auto;
-  position:absolute;
-  top: 62%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-}
-
-a{
-  text-decoration: none;
-}
-
-.card p {
-  margin: 0;
-  height: 100%;
-  flex: 1;
-  overflow: hidden;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: all .5s;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.59);
-  border: 1px solid #000000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-#p1{
-  background-image: url('https://img.freepik.com/fotos-gratis/composicao-de-comida-brasileira-deliciosa-de-alto-angulo_23-2148739223.jpg?w=826&t=st=1726626417~exp=1726627017~hmac=57f0537a757d1dcb1f66950179d76ac3d699f0a78a552099e89a5913778ab49e');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
-}
-
-#p2{
-  background-image: url('https://img.freepik.com/fotos-gratis/vista-superior-saborosa-salada-com-legumes_23-2148515491.jpg?t=st=1726626859~exp=1726630459~hmac=48fc44eed9612d10839b725aafffe7d34992b5b05e3a2292d7568e4ac1856dee&w=740');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
-}
-
-#p3{
-  background-image: url('https://img.freepik.com/fotos-gratis/vista-frontal-deliciosa-composicao-da-comida-brasileira_23-2148739224.jpg?t=st=1726626907~exp=1726630507~hmac=1613675fc2d6c14c1109aee53f5b27aab7a62986e2898bc62e8587b50c2cc549&w=996');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
-}
-
-#p4{
-  background-image: url('https://img.freepik.com/fotos-gratis/foto-de-alto-angulo-de-cupcakes-de-queijo-com-geleia-de-frutas-e-frutas-em-um-prato-de-madeira_181624-25233.jpg?t=st=1726626987~exp=1726630587~hmac=128b1f128aa2eabb613403e110a95ae26caa72dba875bc8ee459ef6378b25530&w=740');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
-}
-
-#p5{
-  background-image: url('https://img.freepik.com/fotos-gratis/cocktail-coberto-com-fatia-de-laranja_141793-643.jpg?t=st=1726627175~exp=1726630775~hmac=6b56deff69e382b0ffa0f2d862c02614675c332ca7628ea9d33429e4c10ceff9&w=740');
-  background-size: cover;
-  background-position: center; 
-  background-repeat: no-repeat;
-}
-
-.card p:hover {
-  flex: 4;
-}
-
-.card p span {
-  min-width: 14em;
-  padding: .5em;
-  text-align: center;
-  transform: rotate(-90deg);
-  transition: all .5s;
-  text-transform: uppercase;
-  color: #ffffff;
-  background-color: #f4eded7a;
-  text-shadow: 5px 5px 5px black;
-  font-weight: 150px;
+/*responsividades*/
+media (max-width: 1000px) {
+  .btn{
+    width: 100px;
+    height: 35px;
+  }
   
 }
-
-.card p:hover span {
-  transform: rotate(0);
+@media (max-width: 940px) {
+  .btn{
+    width: 70px;
+    height: 40px;
+  } 
+  .input {
+    width: 150px;
+  } 
+  .input:focus {
+    width: 160px;
+  }
 }
+@media (max-width: 860px) {
+  .btn{
+    width: 80px;
+    height: 40px;
+  } 
+  .input {
+    width: 160px;
+  } 
+  .input:focus {
+    width: 170px;
+  }
+}
+@media (max-width: 720px) {
+  .btn{
+    font-size: .8em;
+  }
+  .input {
+    width: 100px;
+  } 
+  .input:focus {
+    width: 110px;
+  }
+}
+@media (max-width: 640px) {
+  img{
+    max-width: 150px;
+    height: 80px;
+
+  .btn{
+    width: auto;
+    height: 50px;
+  }
+  .input {
+    width: 50px;
+  } 
+  .input:focus {
+    width: 60px;
+  }
+}
+@media (min-width: 470px) and (max-width: 600px){
+  .btn{
+    display: grid;
+    width: 100px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+  }
+
+}
+@media (max-width: 469px) {
+  .btn{
+    display: grid;
+    width: 80px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+  }
+  .input {
+    width: 45px;
+  } 
+  .input:focus {
+    width: 55px;
+  }
+}}
