@@ -5,6 +5,7 @@ body {
   padding: 0;
   background-image: url('../img/fundo1.png');
   color: #333;
+  overflow: hidden;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.container {
+.container_img {
   height: 150px;
   margin: 0 auto;
   padding: 0 20px;
@@ -87,7 +88,7 @@ img{
 }
 
 /*responsividades*/
-media (max-width: 1000px) {
+@media (max-width: 1000px) {
   .btn{
     width: 100px;
     height: 35px;
