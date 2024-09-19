@@ -1,11 +1,10 @@
-/*numero da nossa cor  f2e0d2*/
+/*numero da nossa cor  #f2e0d2*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-image: url('../img/fundo1.png');
   color: #333;
-  overflow: hidden;
 }
 
 header {
@@ -13,9 +12,12 @@ header {
   padding: 10px 0 ;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+main{
+  height: 570px;
+}
 
-.container_img {
-  height: 150px;
+.container-img{
+  height: 130px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
@@ -56,6 +58,7 @@ img{
    0 8px 0 -4px #e7d6c9,
    0 12px 10px -3px #c8b9ae;
  }
+ /*aqui acaba a config do menu*/
 
 /*aparti daqui é o codigo da barra de pesquisa */
 .container-input {
@@ -86,7 +89,7 @@ img{
   opacity: 1;
   width: 210px;
 }
-
+/*aqui acaba o codigo da barra de pesquisa*/
 /*responsividades*/
 @media (max-width: 1000px) {
   .btn{
@@ -107,9 +110,6 @@ img{
     width: 160px;
   }
 }
-
-
-
 @media (max-width: 860px) {
   .btn{
     width: 80px;
@@ -137,10 +137,10 @@ img{
   img{
     max-width: 150px;
     height: 80px;
-
+  }
   .btn{
     width: auto;
-    height: 50px;
+    height: 40px;
   }
   .input {
     width: 50px;
@@ -155,6 +155,7 @@ img{
     width: 100px;
     margin-bottom: 2px;
     margin-left: 10px;
+    height: 35px;
   }
 
 }
@@ -171,4 +172,141 @@ img{
   .input:focus {
     width: 55px;
   }
-}}
+}
+
+.container{
+    padding: 0%;
+    width: 210vh;
+    height: 75vh;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
+                rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, 
+                rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, 
+                rgba(0, 0, 0, 0.06) 0px 2px 1px, 
+                rgba(0, 0, 0, 0.09) 0px 4px 2px, 
+                rgba(0, 0, 0, 0.09) 0px 8px 4px, 
+                rgba(0, 0, 0, 0.09) 0px 16px 8px, 
+                rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    overflow: hidden;
+}
+
+
+.container .slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+.s1{
+  background-image: url('https://s2-redeglobo.glbimg.com/Nm6q2U85QrDx2CeIDDulDSNTHGM=/0x0:1000x666/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/6/Z/PNuRWOQ2KvfH6YZI4lfQ/carne-grelhada.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.s2{
+  background-image: url('https://cdn.shortpixel.ai/spai/q_lossy+w_731+to_webp+ret_img/blog.biglar.com.br/wp-content/uploads/2023/03/Strogonoff-de-Frango.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.s3{
+  background-image: url('https://conteudo.imguol.com.br/c/entretenimento/85/2021/07/23/file-de-frango-a-parmegiana-1627069374718_v2_900x506.jpg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.s4{
+  background-image: url('https://www.mundoboaforma.com.br/wp-content/uploads/2021/12/Pudim-low-carb-768x410.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.s5{
+  background-image: url('https://www.sabornamesa.com.br/media/k2/items/cache/e2ead9c1349a48396463990fe7b55a21_XL.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slides .slide{
+    width: 20%;
+    transition: 1.5s;
+}
+
+.slide img{
+    width: 100%;
+}
+
+.slides input{
+    /* display: none; */
+    position: absolute;
+    visibility: hidden;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+.bar{
+  backdrop-filter: blur(5px);
+}
+
+.navigation .bar{
+    width: 50px;
+    height: 15px;
+    border: 2px solid #fff;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background: #ffffff2b;
+    scale: 1.3;
+    transition-duration: 500ms;
+}
+
+#radio1:checked ~ .s1{
+    margin-left: 0;
+}
+#radio2:checked ~ .s1{
+    margin-left: -20%;
+}
+#radio3:checked ~ .s1{
+    margin-left: -40%;
+}
+#radio4:checked ~ .s1{
+    margin-left: -60%;
+}
+#radio5:checked ~ .s1{
+    margin-left: -80%;
+}
+
+
+#radio1:checked ~ .navigation .bar1{
+    background: #d7c7bb;
+}
+#radio2:checked ~ .navigation .bar2{
+    background: #d7c7bb;
+}
+#radio3:checked ~ .navigation .bar3{
+    background: #d7c7bb;
+}
+#radio4:checked ~ .navigation .bar4{
+    background: #d7c7bb;
+}
+#radio5:checked ~ .navigation .bar5{
+    background: #d7c7bb;
+}
+
+footer {
+  background-color:transparent;
+  padding: 20px 0 ;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.944);
+  height: 60px;
+}
