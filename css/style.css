@@ -93,7 +93,7 @@ img{
 
 .container{
     padding: 0%;
-    width: 210vh;
+    width: 100%;
     height: 75vh;
     position: absolute;
     top: 62%;
@@ -231,20 +231,20 @@ footer {
 /*responsividades*/
 @media (max-width: 1510px) {
   .container{
-    width: 175vh;
+    width: 100%;
     height: 75vh;
   }
   
 }
 @media (max-width: 1270px) {
   .container{
-    width: 165vh;
+    width: 100%;
     height: 75vh;
   }
 }
 @media (max-width: 1180px) {
   .container{
-    width: 140vh;
+    width: 100%;
     height: 75vh;
   }    
 }
@@ -255,7 +255,7 @@ footer {
     height: 35px;
   }
   .container{
-    width: 130vh;
+    width: 100%;
     height: 75vh;
   }
 }
@@ -266,7 +266,7 @@ footer {
     height: 40px;
   } 
   .container{
-    width: 115vh;
+    width: 100%;
     height: 75vh;
   }
   .input {
@@ -282,7 +282,7 @@ footer {
     height: 40px;
   } 
   .container{
-    width: 95vh;
+    width: 100%;
     height: 75vh;
   }
   .input {
@@ -297,7 +297,7 @@ footer {
     font-size: .8em;
   }
   .container{
-    width: 85vh;
+    width: 100%;
     height: 75vh;
   }
   .input {
@@ -313,7 +313,7 @@ footer {
     height: 80px;
   }
   .container{
-    width: 80vh;
+    width: 100%;
     height: 75vh;
   }
   .btn{
@@ -336,14 +336,14 @@ footer {
     height: 35px;
   }
   .container{
-    width: 70vh;
+    width: 100%;
     height: 75vh;
   }
 
 }
 @media (max-width:516px) {
   .container{
-    width: 63vh;
+    width: 100%;
     height: 75vh;
   }
 }
@@ -355,7 +355,7 @@ footer {
     margin-left: 10px;
   }
   .container{
-    width: 53vh;
+    width: 100%;
     height: 80vh;
   }
   .input {
@@ -367,7 +367,7 @@ footer {
 }
 @media (max-width: 422px) {
   .container{
-    width: 46vh;
+    width: 100%;
     height: 75vh;
     top: 59%;
   }
