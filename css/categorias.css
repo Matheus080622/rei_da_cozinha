@@ -3,17 +3,16 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('../img/fundo1.png');
-  color: #333;
+  background-image: url('https://png.pngtree.com/background/20211215/original/pngtree-wood-texture-white-wood-texture-background-picture-image_1465276.jpg');
 }
 
 header {
-  background-color:transparent;
+  background-color:rgba(255, 255, 255, 0.566);
   padding: 10px 0 ;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.284);
 }
 
-.container {
+.container-img {
   height: 150px;
   margin: 0 auto;
   padding: 0 20px;
@@ -33,8 +32,7 @@ img{
   height: 40px;
   font-size: .9em;
   cursor: pointer;
-  background-color: #bdb2aa;
-  color: #fff;
+  background-color: #ff8c00;
   border: none;
   border-radius: 5px;
   transition: all .4s;
@@ -43,16 +41,14 @@ img{
  
  .btn:hover {
   border-radius: 5px;
-  transform: translateY(-10px);
-  box-shadow: 0 7px 0 -2px #00000032,
-   0 15px 0 -4px #0000008a,
-   0 16px 10px -3px #00000073;
+  transform: translateY(-2px);
+  box-shadow: 0 7px 0 -2px #ffc15c32;
  }
  
  .btn:active {
   transition: all 0.2s;
-  transform: translate(-5px);
-  box-shadow: 0 2px 0 -2px #f2e0d2,
+  transform: translate(-1px);
+  box-shadow: 0 1px 0 -2px #f2e0d2,
    0 8px 0 -4px #e7d6c9,
    0 12px 10px -3px #c8b9ae;
  }
@@ -90,7 +86,6 @@ img{
 /*Categorias */
 main{
     width: 100%;
-
     margin-bottom: 0;
  
 }
@@ -98,8 +93,8 @@ main{
     max-width: 90%;
     height: 470px;
     border-radius: 4px;
-    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.414);
-    background: #ead6c7;
+    box-shadow: 2px 5px 20px 5px rgb(99, 93, 93);
+    backdrop-filter: blur(2px);
     display: flex;
     gap: 10px;
     padding: .7em;
@@ -137,27 +132,33 @@ main{
     transform: rotate(-90deg);
     transition: all .5s;
     text-transform: uppercase;
-    color: #ffffff;
     background-color: #f4eded7a;
-    text-shadow: 5px 5px 5px black;
+    backdrop-filter: blur(10px);
     font-weight: 150px;
     
 }
-  
+
 .card p:hover span {
     transform: rotate(0);
 }
- 
+
 a{
   text-decoration: none;
-  color: #fffefe;
+  color: #000000;
 }
-
+/*Pra mudar a cor da letra dos cards*/
+.a{
+  color: #ffffff;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.999);
+  font-weight: 600;
+}
+/*Imagem de cada card (p)*/
 #p1{
   background-image: url('https://img.freepik.com/fotos-gratis/composicao-de-comida-brasileira-deliciosa-de-alto-angulo_23-2148739223.jpg?w=826&t=st=1726626417~exp=1726627017~hmac=57f0537a757d1dcb1f66950179d76ac3d699f0a78a552099e89a5913778ab49e');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
+  color: #c8b9ae;
 }
 
 #p2{
@@ -187,86 +188,3 @@ a{
   background-position: center; 
   background-repeat: no-repeat;
 }
-
-/*responsividades*/
-@media (max-width: 1000px) {
-  .btn{
-    width: 100px;
-    height: 35px;
-  }
-  
-}
-@media (max-width: 940px) {
-  .btn{
-    width: 70px;
-    height: 40px;
-  } 
-  .input {
-    width: 150px;
-  } 
-  .input:focus {
-    width: 160px;
-  }
-}
-@media (max-width: 860px) {
-  .btn{
-    width: 80px;
-    height: 40px;
-  } 
-  .input {
-    width: 160px;
-  } 
-  .input:focus {
-    width: 170px;
-  }
-}
-@media (max-width: 720px) {
-  .btn{
-    font-size: .8em;
-  }
-  .input {
-    width: 100px;
-  } 
-  .input:focus {
-    width: 110px;
-  }
-}
-@media (max-width: 640px) {
-  img{
-    max-width: 150px;
-    height: 80px;
-
-  .btn{
-    width: auto;
-    height: 50px;
-  }
-  .input {
-    width: 50px;
-  } 
-  .input:focus {
-    width: 60px;
-  }
-}
-@media (min-width: 470px) and (max-width: 600px){
-  .btn{
-    display: grid;
-    width: 100px;
-    margin-bottom: 2px;
-    margin-left: 10px;
-  }
-
-}
-@media (max-width: 469px) {
-  .btn{
-    display: grid;
-    width: 80px;
-    margin-bottom: 2px;
-    margin-left: 10px;
-  }
-  .input {
-    width: 45px;
-  } 
-  .input:focus {
-    width: 55px;
-  }
-}}

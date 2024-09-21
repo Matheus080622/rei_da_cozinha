@@ -1,0 +1,177 @@
+/*responsividades*/
+/*responsividades da altura da tela aqui*/
+@media (max-height: 660px) {
+  /*esse container é do   INDEX*/
+  .container{
+    height: 75vh;
+    top: 67%;
+  }
+}
+@media (max-height: 630px) {
+  .container{
+    height: 80vh;
+    top: 73%;
+  }
+}
+@media (max-height: 580px) {
+  .container{
+    height: 85vh;
+    top: 76%;
+  }
+}
+@media (max-height: 550px) {
+  .container{
+    height: 90vh;
+    top: 80%;
+  }
+}
+@media (max-height: 520px) {
+  .container{
+    height: 90vh;
+    top: 84%;
+  }
+}
+@media (max-height: 500px) {
+  .container{
+    height: 100vh;
+    top: 88%;
+  }
+}
+@media (max-height: 480px) {
+  .container{
+    height: 100vh;
+    top: 92%;
+  }
+}
+/*responsividades da largura da tela aqui*/
+@media (max-width: 1510px) {
+  .container{
+    width: 100%;
+  }
+  
+}
+@media (max-width: 1270px){
+  .container{
+    width: 100%;
+  }
+}
+@media (max-width: 1180px) {
+  .container{
+    width: 100%;
+  }    
+}
+
+@media (max-width: 1000px) {
+  .btn{
+    width: 100px;
+    height: 35px;
+  }
+  .container{
+    width: 100%;
+  }
+}
+
+@media (max-width: 940px) {
+  .btn{
+    width: 70px;
+    height: 40px;
+  } 
+  .container{
+    width: 100%;
+  }
+  .input {
+    width: 150px;
+  } 
+  .input:focus {
+    width: 160px;
+  }
+}
+@media (max-width: 860px) {
+  .btn{
+    width: 80px;
+    height: 40px;
+  } 
+  .container{
+    width: 100%;
+  }
+  .input {
+    width: 160px;
+  } 
+  .input:focus {
+    width: 170px;
+  }
+}
+@media (max-width: 720px) {
+  .btn{
+    font-size: .8em;
+  }
+  .container{
+    width: 100%;
+  }
+  .input {
+    width: 100px;
+  } 
+  .input:focus {
+    width: 110px;
+  }
+}
+@media (max-width: 640px) {
+  img{
+    max-width: 150px;
+    height: 80px;
+  }
+  .container{
+    width: 100%;
+  }
+  .btn{
+    width: auto;
+    height: 40px;
+  }
+  .input {
+    width: 50px;
+  } 
+  .input:focus {
+    width: 60px;
+  }
+}
+@media (min-width: 470px) and (max-width: 600px){
+  .btn{
+    display: grid;
+    width: 100px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+    height: 35px;
+  }
+  .container{
+    width: 100%;
+  }
+
+}
+@media (max-width:516px) {
+  .container{
+    width: 100%;
+  }
+}
+@media (max-width: 469px) {
+  .btn{
+    display: grid;
+    width: 80px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+  }
+  .container{
+    width: 100%;
+  }
+  .input {
+    width: 45px;
+  } 
+  .input:focus {
+    width: 55px;
+  }
+}
+@media (max-width: 422px) {
+  .container{
+    width: 100%;
+    top: 55%;
+  }
+}
