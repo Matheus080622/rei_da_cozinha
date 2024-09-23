@@ -1,5 +1,5 @@
 /*responsividades*/
-@media (max-height: 630px) {
+@media (max-height: 640px) {
   .container{  /*esse container é do   INDEX*/
     top: 68%;
     height: 75vh;
