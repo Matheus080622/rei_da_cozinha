@@ -5,6 +5,7 @@ body {
   padding: 0;
   background-image: url('https://png.pngtree.com/background/20211215/original/pngtree-wood-texture-white-wood-texture-background-picture-image_1465276.jpg');
   color: #333;
+  text-decoration: none;
 }
 
 header {
@@ -13,13 +14,13 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 main{
-  height: 540px;
+  height: 500px;
 }
 
 .container-img{
   height: 130px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,29 +36,28 @@ img{
   height: 40px;
   font-size: .9em;
   cursor: pointer;
-  background-color: #bdb2aa;
-  color: #fff;
+  background-color: #ff8c00;
   border: none;
   border-radius: 5px;
   transition: all .4s;
   text-wrap: none;
- }
- 
- .btn:hover {
+}
+.btn:hover {
   border-radius: 5px;
-  transform: translateY(-10px);
-  box-shadow: 0 7px 0 -2px #00000032,
-   0 15px 0 -4px #0000008a,
-   0 16px 10px -3px #00000073;
- }
- 
- .btn:active {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 0 -2px #ffc15c32;
+}
+.btn:active {
   transition: all 0.2s;
-  transform: translate(-5px);
-  box-shadow: 0 2px 0 -2px #f2e0d2,
+  transform: translate(-1px);
+  box-shadow: 0 1px 0 -2px #f2e0d2,
    0 8px 0 -4px #e7d6c9,
    0 12px 10px -3px #c8b9ae;
- }
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
  /*aqui acaba a config do menu*/
 
 /*aparti daqui é o codigo da barra de pesquisa */
@@ -96,7 +96,7 @@ img{
   width: 100%;
   height: 65vh;
   position: absolute;
-  top: 62%;
+  top: 58%;
   left: 50%;
   transform: translate(-50%, -50%);
   box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, 
@@ -108,6 +108,7 @@ img{
               rgba(0, 0, 0, 0.09) 0px 16px 8px, 
               rgba(0, 0, 0, 0.09) 0px 32px 16px;
   overflow: hidden;
+  background-color: #333;
 }
 
 
@@ -117,31 +118,31 @@ img{
     display: flex;
 }
 .s1{
-  background-image: url('https://s2-redeglobo.glbimg.com/Nm6q2U85QrDx2CeIDDulDSNTHGM=/0x0:1000x666/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/6/Z/PNuRWOQ2KvfH6YZI4lfQ/carne-grelhada.jpg');
+  background-image: url('../img/carneindex.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .s2{
-  background-image: url('https://cdn.shortpixel.ai/spai/q_lossy+w_731+to_webp+ret_img/blog.biglar.com.br/wp-content/uploads/2023/03/Strogonoff-de-Frango.jpg');
+  background-image: url('../img/costelaindex.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .s3{
-  background-image: url('https://conteudo.imguol.com.br/c/entretenimento/85/2021/07/23/file-de-frango-a-parmegiana-1627069374718_v2_900x506.jpg.webp');
+  background-image: url('../img/saladaindex.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .s4{
-  background-image: url('https://www.mundoboaforma.com.br/wp-content/uploads/2021/12/Pudim-low-carb-768x410.jpg');
+  background-image: url('../img/macarraoindex.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 .s5{
-  background-image: url('https://www.sabornamesa.com.br/media/k2/items/cache/e2ead9c1349a48396463990fe7b55a21_XL.jpg');
+  background-image: url('../img/strogonofeindex.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -153,7 +154,7 @@ img{
 }
 
 .slide img{
-    width: 100%;
+    width: 70%;
 }
 
 .slides input{
@@ -223,7 +224,7 @@ img{
 
 footer {
   background-color:rgba(255, 255, 255, 0.566);
-  margin-top: 30px;
+  margin-top: 10px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.944);
-  height: 60px;
+  height: 100px;
 }

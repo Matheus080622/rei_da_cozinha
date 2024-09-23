@@ -1,83 +1,25 @@
 /*responsividades*/
-/*responsividades da altura da tela aqui*/
-@media (max-height: 660px) {
-  /*esse container é do   INDEX*/
-  .container{
+@media (max-height: 630px) {
+  .container{  /*esse container é do   INDEX*/
+    top: 68%;
     height: 75vh;
-    top: 67%;
   }
 }
-@media (max-height: 630px) {
+@media (max-height: 530px) {
   .container{
     height: 80vh;
-    top: 73%;
-  }
-}
-@media (max-height: 580px) {
-  .container{
-    height: 85vh;
-    top: 76%;
-  }
-}
-@media (max-height: 550px) {
-  .container{
-    height: 90vh;
     top: 80%;
   }
 }
-@media (max-height: 520px) {
-  .container{
-    height: 90vh;
-    top: 84%;
-  }
-}
-@media (max-height: 500px) {
+@media (max-height: 460px) {
   .container{
     height: 100vh;
-    top: 88%;
+    top: 90%;
   }
 }
-@media (max-height: 480px) {
-  .container{
-    height: 100vh;
-    top: 92%;
-  }
-}
-/*responsividades da largura da tela aqui*/
-@media (max-width: 1510px) {
-  .container{
-    width: 100%;
-  }
-  
-}
-@media (max-width: 1270px){
-  .container{
-    width: 100%;
-  }
-}
-@media (max-width: 1180px) {
-  .container{
-    width: 100%;
-  }    
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 1000px) { /*responsividades da largura da tela aqui*/
   .btn{
-    width: 100px;
-    height: 35px;
-  }
-  .container{
-    width: 100%;
-  }
-}
-
-@media (max-width: 940px) {
-  .btn{
-    width: 70px;
-    height: 40px;
-  } 
-  .container{
-    width: 100%;
+    width: 75px;
   }
   .input {
     width: 150px;
@@ -86,46 +28,11 @@
     width: 160px;
   }
 }
-@media (max-width: 860px) {
-  .btn{
-    width: 80px;
-    height: 40px;
-  } 
-  .container{
-    width: 100%;
-  }
-  .input {
-    width: 160px;
-  } 
-  .input:focus {
-    width: 170px;
-  }
-}
-@media (max-width: 720px) {
-  .btn{
-    font-size: .8em;
-  }
-  .container{
-    width: 100%;
-  }
-  .input {
-    width: 100px;
-  } 
-  .input:focus {
-    width: 110px;
-  }
-}
+
 @media (max-width: 640px) {
   img{
     max-width: 150px;
     height: 80px;
-  }
-  .container{
-    width: 100%;
-  }
-  .btn{
-    width: auto;
-    height: 40px;
   }
   .input {
     width: 50px;
@@ -134,44 +41,12 @@
     width: 60px;
   }
 }
-@media (min-width: 470px) and (max-width: 600px){
+@media (min-width: 360px) and (max-width: 600px){
   .btn{
     display: grid;
-    width: 100px;
+    width: 90px;
     margin-bottom: 2px;
-    margin-left: 10px;
+    margin-right: 7px;
     height: 35px;
-  }
-  .container{
-    width: 100%;
-  }
-
-}
-@media (max-width:516px) {
-  .container{
-    width: 100%;
-  }
-}
-@media (max-width: 469px) {
-  .btn{
-    display: grid;
-    width: 80px;
-    margin-bottom: 2px;
-    margin-left: 10px;
-  }
-  .container{
-    width: 100%;
-  }
-  .input {
-    width: 45px;
-  } 
-  .input:focus {
-    width: 55px;
-  }
-}
-@media (max-width: 422px) {
-  .container{
-    width: 100%;
-    top: 55%;
   }
 }
