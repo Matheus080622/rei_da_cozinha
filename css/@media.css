@@ -27,8 +27,11 @@
   .input:focus {
     width: 160px;
   }
+  .slides .slide{
+    width: 20%;
+    transition: 0.9s;
 }
-
+}
 @media (max-width: 640px) {
   img{
     max-width: 150px;
@@ -40,6 +43,25 @@
   .input:focus {
     width: 60px;
   }
+  .slides .slide{
+    width: 20%;
+    transition: 0.6s;
+  }
+  .s1{
+    background-image: url('../img/carneindex_mini.jpg');
+  }
+  .s2{
+    background-image: url('../img/costelaindex_mini.jpg');
+  }
+  .s3{
+    background-image: url('../img/saladaindex_mini.jpg');
+  }
+  .s4{
+    background-image: url('../img/macarraoindex_mini.jpg');
+  }
+  .s5{
+    background-image: url('../img/strogonof_mini.jpg');
+  }
 }
 @media (min-width: 360px) and (max-width: 600px){
   .btn{
@@ -49,4 +71,8 @@
     margin-right: 7px;
     height: 35px;
   }
+  .slides .slide{
+    width: 20%;
+    transition: 0.2s;
+}
 }
