@@ -6,14 +6,14 @@ body {
     background-image: url('https://png.pngtree.com/background/20211215/original/pngtree-wood-texture-white-wood-texture-background-picture-image_1465276.jpg');
   }
   
-  header {
+header {
     background-color:rgba(255, 255, 255, 0.566);
     padding: 10px 0 ;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
   }
   
-  .container-img {
-    height: 150px;
+.container-img {
+    height: 130px;
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
@@ -21,13 +21,13 @@ body {
     align-items: center;
   }
   /*logo */
-  img{
+img{
     max-width: 27%;
     height: auto;
     
   }
   /*botao do menu*/
-  .btn {
+.btn {
     width: 130px;
     height: 40px;
     font-size: .9em;
@@ -39,28 +39,32 @@ body {
     text-wrap: none;
    }
    
-   .btn:hover {
+.btn:hover {
     border-radius: 5px;
     transform: translateY(-1px);
     box-shadow: 0 7px 0 -2px #ffc15c32;
    }
    
-   .btn:active {
+.btn:active {
     transition: all 0.2s;
     transform: translate(-1px);
     box-shadow: 0 2px 0 -2px #f2e0d2,
      0 8px 0 -4px #e7d6c9,
      0 12px 10px -3px #c8b9ae;
    }
+a{
+    text-decoration: none;
+    color: #000000;
+  }
   
   /*aparti daqui é o codigo da barra de pesquisa */
-  .container-input {
+.container-input {
     position: relative;
     max-width: 30%;
     padding: auto;
-  }
+}
   
-  .input {
+.input {
     width: 200px;
     height: 10px;
     padding: 10px 0px 10px 40px;
@@ -71,25 +75,26 @@ body {
     opacity: 0.8;
   }
   
-  .container-input svg {
+.container-input svg {
     position: absolute;
     top: 50%;
     left: 10px;
     transform: translate(0, -50%);
   }
   
-  .input:focus {
+.input:focus {
     opacity: 1;
     width: 210px;
   }
     
   /*Categorias */
-  main{
+main{
       width: 100%;
       margin-bottom: 0;
+      margin-left: 0;
    
   }
-  .card {
+.card {
       max-width: 90%;
       height: 470px;
       border-radius: 4px;
@@ -106,7 +111,7 @@ body {
   
   }
   
-  .card p {
+.card p {
       margin: 0;
       height: 100%;
       flex: 1;
@@ -121,11 +126,11 @@ body {
       align-items: center;
     }
   
-  .card p:hover {
+.card p:hover {
       flex: 4;
   }
     
-  .card p span {
+.card p span {
       min-width: 14em;
       padding: .5em;
       text-align: center;
@@ -138,11 +143,10 @@ body {
       
   }
   /*Sugnda parte de cards*/
-  .card p:hover span {
+.card p:hover span {
       transform: rotate(0);
   }
-  
-  .card_2 {
+.card_2 {
     max-width: 90%;
     height: 470px;
     border-radius: 4px;
@@ -157,9 +161,8 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   
-  }
-  
-  .card_2 p {
+  }  
+.card_2 p {
     margin: 0;
     height: 100%;
     flex: 1;
@@ -172,13 +175,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .card_2 p:hover {
+  } 
+.card_2 p:hover {
     flex: 4;
-  }
-  
-  .card_2 p span {
+  } 
+.card_2 p span {
     min-width: 14em;
     padding: .5em;
     text-align: center;
@@ -189,19 +190,14 @@ body {
     backdrop-filter: blur(10px);
     font-weight: 150px;
     
-  }
-  
-  .card_2 p:hover span {
+  } 
+.card_2 p:hover span {
     transform: rotate(0);
-  }
-  
-  a{
-    text-decoration: none;
-    color: #000000;
   }
 /*Pra mudar a cor da letra dos cards*/
 .a{
   color: #ffffff;
+  text-decoration: none;
   text-shadow: 3px 3px 3px black;
   font-weight: 600;
 }
@@ -557,87 +553,4 @@ body {
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
-}
-  
-  /*responsividades*/
-@media (max-width: 1000px) {
-    .btn{
-      width: 100px;
-      height: 35px;
-    }
-    
-}
-@media (max-width: 940px) {
-    .btn{
-      width: 70px;
-      height: 40px;
-    } 
-    .input {
-      width: 150px;
-    } 
-    .input:focus {
-      width: 160px;
-    }
-}
-@media (max-width: 860px) {
-    .btn{
-      width: 80px;
-      height: 40px;
-    } 
-    .input {
-      width: 160px;
-    } 
-    .input:focus {
-      width: 170px;
-    }
-}
-@media (max-width: 720px) {
-    .btn{
-      font-size: .8em;
-    }
-    .input {
-      width: 100px;
-    } 
-    .input:focus {
-      width: 110px;
-    }
-}
-@media (max-width: 640px){
-  img{
-    max-width: 150px;
-    height: 80px;
-  }
-  .btn{
-    width: auto;
-    height: 50px;
-  }
-  .input {
-    width: 50px;
-  } 
-  .input:focus {
-    width: 60px;
-  }
-}
-    
-@media (min-width: 470px) and (max-width: 600px){
-    .btn{
-      display: grid;
-      width: 100px;
-      margin-bottom: 2px;
-      margin-left: 10px;
-    }
-}
-@media (max-width: 469px) {
-    .btn{
-      display: grid;
-      width: 80px;
-      margin-bottom: 2px;
-      margin-left: 10px;
-    }
-    .input {
-      width: 45px;
-    } 
-    .input:focus {
-      width: 55px;
-    }
 }

@@ -13,9 +13,9 @@ header {
 }
 
 .container-img {
-  height: 150px;
+  height: 130px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,28 +38,29 @@ img{
   transition: all .4s;
   text-wrap: none;
  }
- 
  .btn:hover {
   border-radius: 5px;
   transform: translateY(-2px);
   box-shadow: 0 7px 0 -2px #ffc15c32;
  }
- 
- .btn:active {
+/*aqui acaba a config do menu*/
+.btn:active {
   transition: all 0.2s;
   transform: translate(-1px);
   box-shadow: 0 1px 0 -2px #f2e0d2,
    0 8px 0 -4px #e7d6c9,
    0 12px 10px -3px #c8b9ae;
  }
-
+a{
+  text-decoration: none;
+  color: #000000;
+}
 /*aparti daqui é o codigo da barra de pesquisa */
 .container-input {
   position: relative;
   max-width: 30%;
   padding: auto;
 }
-
 .input {
   width: 200px;
   height: 10px;
@@ -70,19 +71,17 @@ img{
   outline: none;
   opacity: 0.8;
 }
-
 .container-input svg {
   position: absolute;
   top: 50%;
   left: 10px;
   transform: translate(0, -50%);
 }
-
 .input:focus {
   opacity: 1;
   width: 210px;
 }
-
+/*aqui acaba o codigo da barra de pesquisa*/
 /*Vai começar as receitas finalmentee*/
 .titulo_img{
   background-color: rgb(207, 136, 136);

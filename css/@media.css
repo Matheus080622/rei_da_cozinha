@@ -22,7 +22,7 @@
     width: 75px;
   }
   .input {
-    width: 150px;
+    width: 148px;
   } 
   .input:focus {
     width: 160px;
@@ -32,7 +32,7 @@
     transition: 0.9s;
 }
 }
-@media (max-width: 640px) {
+@media (max-width: 645px) {
   img{
     max-width: 150px;
     height: 80px;
