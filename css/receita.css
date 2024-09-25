@@ -1,4 +1,4 @@
-/*numero da nossa cor  f2e0d2*/
+/*numero da nossa cor  #ff8c00;*/
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -13,9 +13,9 @@ header {
 }
 
 .container-img {
-  height: 130px;
+  height: 150px;
   margin: 0 auto;
-  padding: 0 0px;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,29 +38,28 @@ img{
   transition: all .4s;
   text-wrap: none;
  }
+ 
  .btn:hover {
   border-radius: 5px;
   transform: translateY(-2px);
   box-shadow: 0 7px 0 -2px #ffc15c32;
  }
-/*aqui acaba a config do menu*/
-.btn:active {
+ 
+ .btn:active {
   transition: all 0.2s;
   transform: translate(-1px);
   box-shadow: 0 1px 0 -2px #f2e0d2,
    0 8px 0 -4px #e7d6c9,
    0 12px 10px -3px #c8b9ae;
  }
-a{
-  text-decoration: none;
-  color: #000000;
-}
+
 /*aparti daqui é o codigo da barra de pesquisa */
 .container-input {
   position: relative;
   max-width: 30%;
   padding: auto;
 }
+
 .input {
   width: 200px;
   height: 10px;
@@ -71,36 +70,194 @@ a{
   outline: none;
   opacity: 0.8;
 }
+
 .container-input svg {
   position: absolute;
   top: 50%;
   left: 10px;
   transform: translate(0, -50%);
 }
+
 .input:focus {
   opacity: 1;
   width: 210px;
 }
-/*aqui acaba o codigo da barra de pesquisa*/
-/*Vai começar as receitas finalmentee*/
-.titulo_img{
-  background-color: rgb(207, 136, 136);
+/*Estilo dos links*/
+a{
+  text-decoration: none;
+  color: #000000;
 }
-.ingredientes{
-  background-color: #a07ee4;
+/*Parte das receitas finalmente*/
+main{
+  width: 90%;
+  box-shadow: 2px 5px 20px 5px rgba(99, 93, 93, 0.429);
+  backdrop-filter: blur(2px);
+  border-radius: 25px;
+  margin: auto;
 }
-.modo_preparado{
-  background-color: #cf96b7;
+
+h1{
+  padding-top: 2%;
 }
-.materiais{
-  background-color: #a7c79d;
+h1,h2{
+  color: #d87905;;
 }
-.tabela{
-  background-color: #b19bdf;
+
+span{
+  color: red;
 }
-.video{
-  background-color: #bceef4;
+/*Titulo principal e img*/
+.div_1{
+  background-color: #ffffff2d;
+  backdrop-filter: blur(5px);
+  border-radius: 25px 25px 0 0;
+  text-align: center;
+  height: 500px;
+  border-bottom: 1.5px dashed #a19689;
 }
-.historia{
-  background-color: #eddc7c;
+/*card de imagem giratoria do começo*/
+.flip-card {
+  background-color: transparent;
+  width: 55%;
+  height: 75%;
+  margin: auto;
 }
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.9s;
+  transform-style:preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border: 1px solid rgb(255, 153, 116);
+  border-radius: 1rem;
+}
+
+.flip-card-front {
+  background-image: url('https://www.sabornamesa.com.br/media/k2/items/cache/f3107c7911141734e4eeaad24ed6c748_XL.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.flip-card-back {
+  background-image: url('https://www.receiteria.com.br/wp-content/uploads/costela-assada-no-forno-09-730x548.jpeg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  transform: rotateY(180deg);
+}
+/*Fim do card de imagem giratoria do começo*/
+/*Ingredientes*/
+.div_2{
+  background-color: #ffffff2d;
+  backdrop-filter: blur(5px);
+  height: auto;
+  padding-left: 3%;
+  border-bottom: 1.5px dashed #a19689;
+}
+
+/*Modo de fazer*/
+.div_3{
+  background-color: #ffffff2d;
+  backdrop-filter: blur(5px);
+  height: auto;
+  padding-left: 3%;
+  border-bottom: 1.5px dashed #a19689;
+}
+/*Comi a div-4*/
+/*Tabela*/
+.div_5{
+  background-color: #ffffff2d;
+  backdrop-filter: blur(5px);
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1.5px dashed #a19689;
+  justify-items: center;
+}
+/*Tutorial*/
+.div_6{
+  background-color: #ffffff2d;
+  backdrop-filter: blur(5px);
+  width: 90%;
+  margin: auto;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1.5px dashed #a19689;
+}
+
+/*Estilização completa da tabela*/
+.tabela-nutricional {
+  border-collapse: collapse; 
+  width: 85%;
+  margin: auto;
+  background-color: #ffffff46;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-nutricional caption {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.tabela-nutricional th, .tabela-nutricional td {
+  border: 1px solid #ddd; 
+  padding: 10px;
+  text-align: center;
+}
+
+.tabela-nutricional th {
+  background-color: #ff8c00;;
+  color: white;
+  text-align: center;
+}
+/*Estilização completa da tabela*/
+/*Origem*/
+.div_7{
+  background-color: #ffffff2d;
+  backdrop-filter: blur(5px);
+  height: auto;
+  padding-left: 3%;
+  padding-bottom: 3%;
+}
+
+ul{
+  list-style-type:square ;
+}
+
+li{
+  padding: 8px;
+  padding-right: 5%;
+  text-align: justify;
+  font-size: 20px;
+}
+
+p{
+  text-align: justify;
+  padding: 2px;
+  padding-right: 5%;
+  font-size: 20px;
+}
+
