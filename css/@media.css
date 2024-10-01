@@ -1,20 +1,40 @@
 /*responsividades*/
+@media (max-height: 690px) {
+  .card{
+    height: 440px;
+    top: 68%;
+  }
+  
+}
 @media (max-height: 640px) {
   .container{  /*esse container é do   INDEX*/
     top: 68%;
     height: 75vh;
   }
+  .card{
+    height: 390px;
+    top: 75%;
+  }
+  
 }
 @media (max-height: 530px) {
   .container{
     height: 80vh;
     top: 80%;
   }
+  .card{
+    height: 370px;
+    top: 79%;
+  }
 }
 @media (max-height: 460px) {
   .container{
     height: 100vh;
     top: 90%;
+  }
+  .card{
+    height: 365px;
+    top: 83%;
   }
 }
 @media (max-width: 1000px) { /*responsividades da largura da tela aqui*/
@@ -30,7 +50,8 @@
   .slides .slide{
     width: 20%;
     transition: 0.9s;
-}
+  }
+
 }
 @media (max-width: 645px) {
   img{
@@ -47,20 +68,21 @@
     width: 20%;
     transition: 0.6s;
   }
-  .s1{
-    background-image: url('../img/carneindex_mini.jpg');
+  .card{
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
   }
-  .s2{
-    background-image: url('../img/costelaindex_mini.jpg');
+  .card p span{
+    transform: rotate(0deg);
   }
-  .s3{
-    background-image: url('../img/saladaindex_mini.jpg');
+  .card_2{
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
   }
-  .s4{
-    background-image: url('../img/macarraoindex_mini.jpg');
-  }
-  .s5{
-    background-image: url('../img/strogonof_mini.jpg');
+  .card_2 p span {
+    transform: rotate(0deg);
   }
 }
 @media (min-width: 360px) and (max-width: 600px){
