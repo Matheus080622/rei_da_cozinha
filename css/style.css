@@ -110,34 +110,35 @@ a{
     display: flex;
 }
 .s1{
-  background-image: url('../img/carneindex.jpg');
-  background-size: cover;
+  background-image: url('../img/image1index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% 130%;
 }
 .s2{
-  background-image: url('../img/costelaindex.jpg');
-  background-size: cover;
+  background-image: url('../img/image2index.jpeg');
+
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% 150%;
 }
 .s3{
-  background-image: url('../img/saladaindex.jpg');
-  background-size: cover;
+  background-image: url('../img/image3index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% 130%;
 }
 .s4{
-  background-image: url('../img/macarraoindex.jpg');
-  background-size: cover;
+  background-image: url('../img/image4index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% 170% ;
 }
 .s5{
-  background-image: url('../img/strogonofeindex.jpg');
-  background-size: cover;
+  background-image: url('../img/image5index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 100% 130%;
 }
 .slides .slide{
     width: 20%;
