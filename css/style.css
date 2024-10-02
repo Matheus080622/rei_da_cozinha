@@ -113,32 +113,32 @@ a{
   background-image: url('../img/image1index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 130%;
+  background-size: cover;
 }
 .s2{
   background-image: url('../img/image2index.jpeg');
 
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 150%;
+  background-size: cover;
 }
 .s3{
   background-image: url('../img/image3index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 130%;
+  background-size: cover;
 }
 .s4{
   background-image: url('../img/image4index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 170% ;
+  background-size: cover;
 }
 .s5{
   background-image: url('../img/image5index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 130%;
+  background-size: cover;
 }
 .slides .slide{
     width: 20%;
