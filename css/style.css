@@ -202,13 +202,4 @@ a{
 #radio5:checked ~ .navigation .bar5{
     background: #d7c7bb;
 }
-footer {
-  background-color:rgba(255, 255, 255, 0.566);
-  margin-top: 10px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.944);
-  height: 80px;
-}
-footer > p{
-  text-align: center; 
-  padding-top: 2%;
-}
+
