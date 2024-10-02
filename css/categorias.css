@@ -113,7 +113,7 @@ main{
     overflow: hidden;
     cursor: pointer;
     border-radius: 5px;
-    transition: all .5s;
+    transition: all .3s;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.59);
     border: 1px solid #000000;
     display: flex;
@@ -130,7 +130,7 @@ main{
     padding: .5em;
     text-align: center;
     transform: rotate(-90deg);
-    transition: all .5s;
+    transition: all .4s;
     text-transform: uppercase;
     background-color: #f4eded7a;
     backdrop-filter: blur(10px);
