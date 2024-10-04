@@ -154,7 +154,7 @@ a{
 }
 /*Imagem de cada card (p)*/
 #p1{
-  background-image: url('');
+  background-image: url('../img/image1cate.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
@@ -162,28 +162,28 @@ a{
 }
 
 #p2{
-  background-image: url('');
+  background-image: url('../img/image2cate.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #p3{
-  background-image: url('');
+  background-image: url('../img/image3cate.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #p4{
-  background-image: url('');
+  background-image: url('../img/image4cate.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #p5{
-  background-image: url('');
+  background-image: url('../img/image5cate.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;

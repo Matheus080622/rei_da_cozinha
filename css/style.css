@@ -110,7 +110,7 @@ a{
     display: flex
 }
 .s1{
-  background-image: url('../img/image1index.jpeg');
+  background-image: url('../img/image5index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,7 +135,7 @@ a{
   background-size: cover;
 }
 .s5{
-  background-image: url('../img/image5index.jpeg');
+  background-image: url('../img/image1index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
