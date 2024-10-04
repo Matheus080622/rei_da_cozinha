@@ -110,32 +110,32 @@ a{
     display: flex
 }
 .s1{
-  background-image: url('../img/image5index.jpeg');
+  background-image: url('../img/index/image5index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .s2{
-  background-image: url('../img/image2index.jpeg');
+  background-image: url('../img/index/image2index.jpeg');
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .s3{
-  background-image: url('../img/image3index.jpeg');
+  background-image: url('../img/index/image3index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .s4{
-  background-image: url('../img/image4index.jpeg');
+  background-image: url('../img/index/image4index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .s5{
-  background-image: url('../img/image1index.jpeg');
+  background-image: url('../img/index/image1index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
