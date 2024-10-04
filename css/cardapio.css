@@ -204,70 +204,70 @@ main{
   /*Imagem de cada card (p)*/
 /*Parte do almoço*/
 #alm1{
-    background-image: url('');
+    background-image: url('../img/cardapio/image1card.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #alm2{
-    background-image: url('');
+    background-image: url('../img/cardapio/image2card.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #alm3{
-    background-image: url('');
+    background-image: url('../img/cardapio/image3card.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #alm4{
-    background-image: url('');
+    background-image: url('../img/cardapio/image4card.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #alm5{
-    background-image: url('');
+    background-image: url('../img/cardapio/image5card.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
 
 #alm6{
-    background-image: url('');
+    background-image: url('../img/cardapio/image6card.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #alm7{
-    background-image: url('');
+    background-image: url('../img/cardapio/image7card.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #alm8{
-    background-image: url('');
+    background-image: url('../img/cardapio/image8card.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #alm9{
-    background-image: url('');
+    background-image: url('../img/cardapio/image9card.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #alm10{
-    background-image: url('');
+    background-image: url('../img/cardapio/image10card.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
