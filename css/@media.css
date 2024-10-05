@@ -59,8 +59,31 @@
     width: 20%;
     transition: 0.9s;
   }
+  .flip-card-inner1,.flip-card-inner2,.flip-card-inner3,.flip-card-inner4,.flip-card-inner5,.flip-card-inner6,.flip-card-inner7,.flip-card-inner8,.flip-card-inner9,.flip-card-inner10{
+    background-size: 7;
+    background-position: center;
+  }
+  .flip-card-binner1,.flip-card-binner2,.flip-card-binner3,.flip-card-binner4,.flip-card-binner5,.flip-card-binner6,.flip-card-binner7,.flip-card-binner8,.flip-card-binner9,.flip-card-binner10{
+    max-width: 90%;
+    background-size: 7;
+    background-position: center;
+  }
+  .flip-card-dinner1,.flip-card-dinner2,.flip-card-dinner3,.flip-card-dinner4,.flip-card-dinner5,.flip-card-dinner6,.flip-card-dinner7,.flip-card-dinner8,.flip-card-dinner9,.flip-card-dinner10{
+    max-width: 400PX;
+    background-size: 7;
+    background-position: center;
+  }
+  .flip-card-sinner1,.flip-card-sinner2,.flip-card-sinner3,.flip-card-sinner4,.flip-card-sinner5,.flip-card-sinner6,.flip-card-sinner7,.flip-card-sinner8,.flip-card-sinner9,.flip-card-sinner10{
+    max-width: 90%;
+    background-size: 7;
+    background-position: center;
+  }
+  .flip-card-sginner1,.flip-card-sginner2,.flip-card-sginner3,.flip-card-sginner4,.flip-card-sginner5,.flip-card-sginner6,.flip-card-sginner7,.flip-card-sginner8,.flip-card-sginner9,.flip-card-sginner10{
+    max-width: 400PX;
+    background-size: 7;
+    background-position: center;
+  }
 
-}
 @media (max-width: 645px) {
   img{
     max-width: 150px;

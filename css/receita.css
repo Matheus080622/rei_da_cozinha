@@ -118,7 +118,7 @@ span{
 /*card de imagem giratoria do começo*/
 .flip-card {
   background-color: transparent;
-  width: 65%;
+  width: 75%;
   height: 75%;
   margin: auto;
 }
