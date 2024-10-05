@@ -1,8 +1,12 @@
 /*responsividades*/
 @media (max-height: 690px) {
   .card{
-    height: 440px;
+    height: 420px;
     top: 68%;
+  }
+  .card_2 {
+    height: 420px;
+    top:158%;
   }
   
 }
@@ -25,6 +29,10 @@
   .card{
     height: 370px;
     top: 79%;
+  }
+  .card_2 {
+    height: 370px;
+    top: 160%;
   }
 }
 @media (max-height: 460px) {

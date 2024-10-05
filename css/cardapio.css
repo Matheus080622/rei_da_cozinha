@@ -274,70 +274,70 @@ main{
   }
 /*Parte da salada*/
 #sala1{
-    background-image: url('');
+    background-image: url('../img/cardapio/salada1.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #sala2{
-    background-image: url('');
+    background-image: url('../img/cardapio/salada2.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #sala3{
-    background-image: url('');
+    background-image: url('../img/cardapio/salada3.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #sala4{
-    background-image: url('');
+    background-image: url('../img/cardapio/salada4.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #sala5{
-    background-image: url('');
+    background-image: url('../img/cardapio/salada5.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #sala6{
-    background-image: url('');
+    background-image: url('../img/cardapio/salada6.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #sala7{
-    background-image: url('');
+    background-image: url('../img/cardapio/salada7.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #sala8{
-    background-image: url('');
+    background-image: url('../img/cardapio/salada8.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #sala9{
-    background-image: url('');
+    background-image: url('../img/cardapio/salada9.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #sala10{
-    background-image: url('');
+    background-image: url('../img/cardapio/salada10.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -345,140 +345,140 @@ main{
 
   /*Parte dos salgados*/
 #salg1{
-    background-image: url('');
+    background-image: url('../img/cardapio/salg1.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #salg2{
-    background-image: url('');
+    background-image: url('../img/cardapio/salg2.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #salg3{
-    background-image: url('');
+    background-image: url('../img/cardapio/salg3.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #salg4{
-    background-image: url('');
+    background-image: url('../img/cardapio/salg4.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #salg5{
-    background-image: url('');
+    background-image: url('../img/cardapio/salg5.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #salg6{
-    background-image: url('');
+    background-image: url('../img/cardapio/salg6.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #salg7{
-    background-image: url('');
+    background-image: url('../img/cardapio/salg7.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #salg8{
-    background-image: url('');
+    background-image: url('../img/cardapio/salg8.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #salg9{
-    background-image: url('');
+    background-image: url('../img/cardapio/salg9.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #salg10{
-    background-image: url('');
+    background-image: url('../img/cardapio/salg10.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
 /*Parte dos doces*/
 #d1{
-    background-image: url('');
+    background-image: url('../img/cardapio/doce1.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #d2{
-    background-image: url('');
+    background-image: url('../img/cardapio/doce2.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #d3{
-    background-image: url('');
+    background-image: url('../img/cardapio/doce3.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #d4{
-    background-image: url('');
+    background-image: url('../img/cardapio/doce4.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #d5{
-    background-image: url('');
+    background-image: url('../img/cardapio/doce5.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #d6{
-    background-image: url('');
+    background-image: url('../img/cardapio/doce6.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #d7{
-    background-image: url('');
+    background-image: url('../img/cardapio/doce7.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #d8{
-    background-image: url('');
+    background-image: url('../img/cardapio/doce8.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #d9{
-    background-image: url('');
+    background-image: url('../img/cardapio/doce9.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
   }
   
 #d10{
-    background-image: url('');
+    background-image: url('../img/cardapio/doce10.jpeg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
@@ -486,70 +486,70 @@ main{
 
 /*Parte das bebidas*/
 #b1{
-  background-image: url('');
+  background-image: url('../img/cardapio/bebi1.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #b2{
-  background-image: url('');
+  background-image: url('../img/cardapio/bebi2.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #b3{
-  background-image: url('');
+  background-image: url('../img/cardapio/bebi3.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #b4{
-  background-image: url('');
+  background-image: url('../img/cardapio/bebi4.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #b5{
-  background-image: url('');
+  background-image: url('../img/cardapio/bebi5.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #b6{
-  background-image: url('');
+  background-image: url('../img/cardapio/bebi6.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #b7{
-  background-image: url('');
+  background-image: url('../img/cardapio/bebi7.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #b8{
-  background-image: url('');
+  background-image: url('../img/cardapio/bebi8.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #b9{
-  background-image: url('');
+  background-image: url('../img/cardapio/bebi9.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
 }
 
 #b10{
-  background-image: url('');
+  background-image: url('../img/cardapio/bebi10.jpeg');
   background-size: cover;
   background-position: center; 
   background-repeat: no-repeat;
