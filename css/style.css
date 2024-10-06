@@ -113,14 +113,13 @@ a{
   background-image: url('../img/index/image5index.jpeg');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 135%;
 }
 .s2{
   background-image: url('../img/index/image2index.jpeg');
-
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 140%;
 }
 .s3{
   background-image: url('../img/index/image3index.jpeg');
@@ -140,8 +139,14 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
 }
+.s6{
+  background-image: url('../img/index/bebi2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .slides .slide{
-    width: 20%;
+    width: 10%;
     transition: 1.1s;
 }
 .slides input{
@@ -173,7 +178,7 @@ a{
     transition-duration: 500ms;
 }
 #radio1:checked ~ .s1{
-    margin-left: 0;
+    margin-left: 0%;
 }
 #radio2:checked ~ .s1{
     margin-left: -20%;

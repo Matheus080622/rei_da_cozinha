@@ -56,7 +56,7 @@
     width: 160px;
   }
   .slides .slide{
-    width: 20%;
+    width: 10%;
     transition: 0.9s;
   }
   .flip-card-inner1,.flip-card-inner2,.flip-card-inner3,.flip-card-inner4,.flip-card-inner5,.flip-card-inner6,.flip-card-inner7,.flip-card-inner8,.flip-card-inner9,.flip-card-inner10{
@@ -96,7 +96,7 @@
     width: 60px;
   }
   .slides .slide{
-    width: 20%;
+    width: 10%;
     transition: 0.6s;
   }
   .card{
@@ -125,8 +125,13 @@
     height: 35px;
   }
   .slides .slide{
-    width: 20%;
-    transition: 0.2s;
+    width: 10%;
+    transition: 0.6s;
   }
-
+  .s2, .s1,{
+    background-size: 120% 110%;
+  }
+  .s3,.s4{
+    background-size: 110% 100%;
+  }
 }
